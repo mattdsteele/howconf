@@ -2,7 +2,8 @@ Presentations List
 ==================
 
 1-line list of potential presentations.
-Please stick details in files in the presentations/ folder
+
+Stick details into the presentations/ subdirectory.
 
 Volunteered Talks
 -----------------
@@ -16,7 +17,7 @@ Volunteered Talks
 Accepted Talks
 --------------
 
-Some of the talks above will be accepted, scheduled into timeslots and rooms,  and moved down here. 
+Some of the talks above will be accepted, scheduled into timeslots and rooms, and moved down here. 
 
 
 
