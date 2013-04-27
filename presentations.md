@@ -13,6 +13,7 @@ Volunteered Talks
 * DBIx::Class ORM (Perl), 50 minutes, Jay Hannah
 * Moose OO Perl 5, 50 minutes, Jay Hannah
 * Intro to BioPerl, 50 minutes, Jay Hannah
+* git workshop, Nick Nisi
 
 Accepted Talks
 --------------
