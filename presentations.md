@@ -14,11 +14,12 @@ Volunteered Talks
 * Moose OO Perl 5, 50 minutes, Jay Hannah
 * Intro to BioPerl, 50 minutes, Jay Hannah
 * git workshop, Nick Nisi
+* Markov Demystified, Nick Wertzberger
 
 Accepted Talks
 --------------
 
-Some of the talks above will be accepted, scheduled into timeslots and rooms, and moved down here. 
+Some of the talks above will be accepted, scheduled into timeslots and rooms, and moved down here.
 
 
 
