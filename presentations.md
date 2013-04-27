@@ -13,6 +13,7 @@ Volunteered Talks
 * DBIx::Class ORM (Perl), 50 minutes, Jay Hannah
 * Moose OO Perl 5, 50 minutes, Jay Hannah
 * Intro to BioPerl, 50 minutes, Jay Hannah
+* Beginners guide to GPIO with Radpberry Pi, 30 minutes, John Hobbs
 
 Accepted Talks
 --------------
