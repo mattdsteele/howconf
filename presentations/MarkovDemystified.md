@@ -24,6 +24,15 @@ a cohesive framework.
 Description
 ===========
 
-Expected Participant Experience:
+Expected Participant Experience Level:
 * A JVM language (the language used to present will likely be Java/Groovy), or a calculator and paper.
 * An understanding that all possible probabilities need to add up to 1.
+
+Topics Covered:
+* Probability
+* Markov Assumptions
+* Markov Chains
+* Markov Decision Processes
+
+Discussion topic (at the end):
+* When should you apply this?
