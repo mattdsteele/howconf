@@ -15,6 +15,7 @@ Volunteered Talks
 * Intro to BioPerl, 50 minutes, Jay Hannah
 * git workshop, Nick Nisi
 * Markov Demystified, Nick Wertzberger
+* Beginners guide to GPIO with Radpberry Pi, 30 minutes, John Hobbs
 
 Accepted Talks
 --------------
