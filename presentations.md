@@ -16,6 +16,7 @@ Volunteered Talks
 * git workshop, Nick Nisi
 * Markov Demystified, Nick Wertzberger
 * Beginners guide to GPIO with Radpberry Pi, 30 minutes, John Hobbs
+* I can do an intro to LaTeX if anyone would be interested, or just ramble on about something. swflint.
 
 Accepted Talks
 --------------
