@@ -8,11 +8,7 @@ Stick details into the presentations/ subdirectory.
 Volunteered Talks
 -----------------
 
-* Zero to Perl, 50 minutes, Jay Hannah
-* Catalyst - the elegant MVC framework (Perl), 50 minutes, Jay Hannah
-* DBIx::Class ORM (Perl), 50 minutes, Jay Hannah
-* Moose OO Perl 5, 50 minutes, Jay Hannah
-* Intro to BioPerl, 50 minutes, Jay Hannah
+* Zero to Perl, Jay Hannah
 * git workshop, Nick Nisi
 * Markov Demystified, Nick Wertzberger
 * Beginners guide to GPIO with Radpberry Pi, 30 minutes, John Hobbs
