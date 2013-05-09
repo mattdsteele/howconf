@@ -10,6 +10,9 @@ We probably will market this towards teaching technical folks something new - th
 content wouldn't have to be technical, though. We could also do something for 
 non-techies; it just wouldn't be the main focus of the event.
 
+Location: Probably [Mallet Lodge](http://nebraskastateparks.reserveamerica.com/campgroundDetails.do?topTableIndex=CampingSpot&contractCode=ne&parkCode=0224) at Platte River 
+State Park (between Omaha and Lincoln). 
+
 There's lots of discussion in progress in github [Issues](https://github.com/mattdsteele/unconf/issues).
 
 Join our [mailing list](https://groups.google.com/forum/#!forum/omaha-unconf).
