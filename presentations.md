@@ -15,6 +15,7 @@ Volunteered Talks
 * Intro to BioPerl, 50 minutes, Jay Hannah
 * git workshop, Nick Nisi
 * Markov Demystified, Nick Wertzberger
+* LP: Literate Programming with Org-mode, Sam Flint
 
 Accepted Talks
 --------------
