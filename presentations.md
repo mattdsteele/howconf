@@ -11,6 +11,7 @@ Volunteered Talks
 * Game Programming with JavaScript Tanks, Nick Nisi
 * CTF/Security workshop, John Hobbs
 * 30-minute talk TBD, Zach Leatherman
+* Arduino, Jonathan Rice
 
 
 Accepted Talks
