@@ -13,18 +13,43 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/foundation.css">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,900' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <style>
+            body {
+                background: #eee;
+            }
+            header {
+                padding-top: 10em;
+                text-align: center;
+                min-height: 30em;
+                background: url('img/mallet-lodge.jpg');
+                background-size: cover;
+            }
+
+            section:nth-child(even) {
+                background-color: #eee;
+                padding-left: 3em;
+            }
+            section:nth-child(odd) {
+                background-color: #fff;
+            }
+            section h1, header h1 {
+                font-family: 'Raleway', sans-serif;
+            }
+        </style>
     </head>
     <body>
-        <header>
+        <header class="row">
             <h1>HOW Conf</h1>
             <h2>Hands On Workshops</h2>
+            <a href="#register" class="button success">Register Now!</a>
         </header>
 
         <section>
             <h2>September 14, 2013</h2>
-            <h2>Platte River State Park, Nebraska</h2>
+            <h2><a href="#location">Platte River State Park, Nebraska</a></h2>
         </section>
 
         <section>
@@ -38,7 +63,7 @@
             <p>We'd love for you to present! If you have an idea for a workshop, send it to <a href="mailto:info@howconf.org">info@howconf.org</a>.</p>
         </section>
 
-        <section>
+        <section id="location">
             <h1>Location</h1>
             <p>Mallet Lodge at Platte River State Park in Nebraska. It is located halfway between Omaha and Lincoln.</p>
             <p>A Nebraska Games &amp; Parks permit is required to enter the park. Daily passes are $5 and can be paid when you arrive.</p>
@@ -49,7 +74,7 @@
         <section>
             <h1>What should I bring?</h1>
             <p>A laptop for with which to do workshops. If anything else is required for a workshop, we'll let you know beforehand.</p>
-            <p>Also bring a camera. 
+            <p>If you'd like, bring your phone and tweet at us with the #howconf hashtag.</p>
         </section>
         <section>
             <h1>What's included</h1>
@@ -64,11 +89,11 @@
             <h1>Contact Us</h1>
             <p>Send us an email at <a href="mailto:info@howconf.org">info@howconf.org</a>.</p>
             <p>Find us on Twitter at <a href="http://www.twitter.com/howconf">@howconf</a>.</p>
-        <section>
+        <section id="register">
             <h1>Register</h1>
             <p>Registration is only <strong>ten bucks</strong>.</p>
             <!-- Eventbrite embed -->
-            <div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.com/tickets-external?eid=7795519609&ref=etckt&v=2" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Sell Tickets</a> <span style="color:#ddd;">through</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+            <div style="width:99%; text-align:left;" ><iframe  src="http://www.eventbrite.com/tickets-external?eid=7795519609&ref=etckt&v=2" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Sell Tickets</a> <span style="color:#ddd;">through</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
         </section>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
