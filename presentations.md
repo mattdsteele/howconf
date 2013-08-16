@@ -8,11 +8,10 @@ Stick details into the presentations/ subdirectory.
 Volunteered Talks
 -----------------
 
-* Zero to Perl, Jay Hannah
-* git workshop, Nick Nisi
-* Markov Demystified, Nick Wertzberger
-* Beginners guide to GPIO with Radpberry Pi, 30 minutes, John Hobbs
-* LP: Literate Programming with Org-mode, Sam Flint
+* Game Programming with JavaScript Tanks, Nick Nisi
+* CTF/Security workshop, John Hobbs
+* 30-minute talk TBD, Zach Leatherman
+
 
 Accepted Talks
 --------------
