@@ -1,0 +1,55 @@
+img {
+    width: 100%;
+}
+body {
+	background: url('../img/squairy_light_@2x.png')
+}
+header {
+	padding-top: 10em;
+	text-align: center;
+	min-height: 30em;
+	background: url('../img/mallet-lodge.jpg');
+	background-size: cover;
+}
+header div {
+	background: rgba(255,255,255,0.3);
+}
+
+section:nth-child(even) {
+}
+section:nth-child(odd) {
+}
+section h1, #hero * {
+	font-family: 'Raleway', sans-serif;
+}
+hr {
+	background-color: #400307;
+	height:	1px;
+	margin: 0 auto;
+}
+section {
+	padding: 1em;
+}
+section p, section ul, section ol {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+#presenters img {
+	border-radius: 50%;
+	transition: border-radius 0.3s;
+}
+#presenters img:hover {
+	border-radius: 10%;
+}
+
+#sponsors {
+	text-align: center;
+}
+
+#sponsors li {
+	max-width: 30em;
+	display: inline-block;
+	list-style-type: none;
+}
