@@ -19,7 +19,7 @@ section:nth-child(even) {
 }
 section:nth-child(odd) {
 }
-section h1, #hero * {
+section h1, section h2, #hero * {
 	font-family: 'Raleway', sans-serif;
 }
 hr {
