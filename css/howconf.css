@@ -8,8 +8,14 @@ header {
 	padding-top: 10em;
 	text-align: center;
 	min-height: 30em;
-	background: url('../img/mallet-lodge.jpg');
+	background: url('../img/mallet-lodge-small.jpg');
 	background-size: cover;
+}
+@media(min-width:768px) {
+	header {
+		background: url('../img/mallet-lodge.jpg');
+		background-size: cover;
+	}
 }
 header div {
 	background: rgba(255,255,255,0.3);
