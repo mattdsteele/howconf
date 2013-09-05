@@ -48,40 +48,99 @@
         </section>
 
         <hr>
-        <section id="presenters" class="row">
-            <h1>Presenters</h1>
-            <p>We'd love for you to present! If you have an idea for a workshop, or just have something fun you want to share, send it to <a href="mailto:info@howconf.org">info@howconf.org</a>.</p>
-            <h2>Current Presenters</h2>
-            <ul class="small-block-grid-2 large-block-grid-4">
-                <li><img src="https://si0.twimg.com/profile_images/378800000003910549/a202c4ecc3433e095b7e58fc999519e8.jpeg"> Nick Nisi</li> <!-- Nick Nisi -->
-                <li><img src="https://1.gravatar.com/avatar/1d85dfb12d57d182c3e870b46390d384?d=https%3A%2F%2Fidenticons.github.com%2F5f2484cfb8073580c9136f7a8894734e.png&s=400">John Hobbs</li>
-                <li><img src="https://1.gravatar.com/avatar/e1899004c71c7043343196103e210be3?d=https%3A%2F%2Fidenticons.github.com%2F67b46df8fd1c23206e0572850ac213b5.png&s=400">Zach Leatherman</li>
-                <li><img src="img/jrice.jpg">Jonathan Rice</li>
-                <li><img src="img/robhruska.png">Rob Hruska</li>
-            </ul>
+        <section id="presenters" class="row presenters">
+            <h1>Workshops</h1>
+            <div class="row">
+                <div class="large-3 small-centered small-6 large-uncentered columns">
+                    <h2>Nick Nisi</h2>
+                    <img src="https://si0.twimg.com/profile_images/378800000003910549/a202c4ecc3433e095b7e58fc999519e8.jpeg">
+                </div>
+                <div class="large-9 columns">
+                    <h2>Game Programming in JavaScript</h2>
+                    <p>Learn the fundamentals of game programming. Tanks will be involved.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-3 small-centered small-6 large-uncentered columns">
+                    <h2>John Hobbs</h2>
+                    <img src="https://1.gravatar.com/avatar/1d85dfb12d57d182c3e870b46390d384?d=https%3A%2F%2Fidenticons.github.com%2F5f2484cfb8073580c9136f7a8894734e.png&s=400">
+                </div>
+                <div class="large-9 columns">
+                    <h2>Security and Software Exploitation</h2>
+                    <p>Learn common software vulnerabilities by breaking them. You will be given time to break purposely flawed software, then we will discuss the vulnerabilities and mitigation as a group. The player who progresses the furthest will receive a prize (TBD)</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-3 small-centered small-6 large-uncentered columns">
+                    <h2>Jonathan Rice</h2>
+                    <img src="img/jrice.jpg">
+                </div>
+                <div class="large-9 columns">
+                    <h2>Hardware Hacking with Arduino</h2>
+                    <p>An introduction to Arduino where you'll use basic components to create a non-trivial device. I'll cover various types of inputs, sneaky uses of LEDs, poor-man's object detection, serial debugging and control, and connecting to the Internet without a shield.</p>
+                </div>
+            </div>
+        </section>
+        <section class="row presenters">
+            <h1>Lightning Talks</h1>
+            <div class="row">
+                <div class="large-3 small-centered small-6 large-uncentered columns">
+                    <h2>Rob Hruska</h2>
+                    <img src="img/robhruska.png">
+                </div>
+                <div class="large-9 columns">
+                    <h2>Information Radiators with Node.js, Raspberry PI, Socket.IO</h2>
+                    <p>In this session we will:</p>
+
+                    <ul>
+                        <li>Dig into the Node.js server and Socket.io code at the heart of the project.</li>
+                        <li>Demonstrate how to add data sources and displays to the app to make your own awesome dashboards.</li>
+                        <li>Talk about the nuances and setup of the Raspberry Pi clients that connect to and drive the projector.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-3 small-centered small-6 large-uncentered columns">
+                    <h2>John Miller</h2>
+                    <img src="img/jmiller.jpg">
+                </div>
+                <div class="large-9 columns">
+                    <h2>Robot Operating System (ROS)</h2>
+                    <p>We'll demo what what ROS can do (youtube montage), simulating custom robot, and integrating with real robot using an Arduino.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-3 small-centered small-6 large-uncentered columns">
+                    <h2>Zach Leatherman</h2>
+                    <img src="https://1.gravatar.com/avatar/e1899004c71c7043343196103e210be3?d=https%3A%2F%2Fidenticons.github.com%2F67b46df8fd1c23206e0572850ac213b5.png&s=400">
+                </div>
+                <div class="large-9 columns">
+                    <h2>TBD</h2>
+                    <p>It probably involves JavaScript.</p>
+                </div>
+            </div>
         </section>
 
         <hr>
         <div class="row">
-        <section class="column large-6">
-            <h1>Workshops</h1>
-            <p>Workshops will last 1-3 hours. They may include:</p>
-            <ul>
-                <li>Arduino</li>
-                <li>Game Programming</li>
-                <li>Node.js Robots</li>
-                <li>CTF/Software Exploits</li>
-                <li>Raspberry Pi and WebSockets</li>
-            </ul>
-        </section>
-
-        <section class="column large-6">
+        <section class="column large-8 large-offset-2">
             <h1>What should I bring?</h1>
             <ol>
                 <li>A laptop. A few of the workshops will use them, but you can find someone to pair up with if you need to.</li>
-                <li>Some sessions might require you bring some equipment (for example, an Arduino). We'll let you know in advance if you need to bring anything.</li>
+                <li>A <a href="http://www.github.com">GitHub account</a> is required for the Game Programming session</li>
+                <li>An SSH client is required for the Software Vulnerabilities session. Windows users, check out <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTY</a>.</li>
                 <li>If you'd like, bring a phone and tweet at us with the #howconf hashtag.</li>
             </ol>
+            <h2 id="arduino">Arduino Workshop</h2>
+            <ol>
+                <li>An <a href="http://arduino.cc/en">Arduino</a>. If you're like us, you bought one a while back, and then threw it in a closet. Now's the time to break it out!</li>
+                <li>A breadboard</li>
+                <li>Some jumper wires</li>
+                <li>Potentiometer. 5k, 10k, any kind will do</li>
+                <li>Optionally, you can pick up a buzzer</li>
+            </ol>
+            <p>You can pick up everything at Radio Shack (<a href="http://www.radioshack.com/product/index.jsp?productId=12268262">Arduino</a>, <a href="http://www.radioshack.com/product/index.jsp?productId=18761926">breadboard + wires</a>, <a href="http://www.radioshack.com/product/index.jsp?productId=2102789">potentiometer</a>, <a href="http://www.radioshack.com/product/index.jsp?productId=2062402">buzzer</a>). We'll provide everything else!</p>
+            <p>If you don't want to buy an Arduino, don't panic! We'll have a few extra. You can also pair up with someone.</p>
         </section>
         </div>
 
@@ -96,8 +155,9 @@
             <h1>What's included</h1>
             <ul>
                 <li>Admission</li>
-                <li>Light breakfast</li>
+                <li>Light breakfast, (coffee, donuts)</li>
                 <li>Lunch</li>
+                <li>Snacks and Sodas</li>
             </ul>
         </section>
     </div>
@@ -122,6 +182,7 @@
         <hr>
         <section id="register" class="row">
             <h1>Register</h1>
+            <h2>Closes September 12</h2>
             <p>Registration is only <strong>ten bucks</strong>, and seating is limited!</p>
             <div id="registerButton">
                 <a href="http://howconf.eventbrite.com/" class="button expand success">Register on EventBrite</a>

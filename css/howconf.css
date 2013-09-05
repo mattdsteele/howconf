@@ -42,11 +42,11 @@ section p, section ul, section ol {
 }
 
 
-#presenters img {
+.presenters img {
 	border-radius: 50%;
 	transition: border-radius 0.3s;
 }
-#presenters img:hover {
+.presenters img:hover {
 	border-radius: 10%;
 }
 
