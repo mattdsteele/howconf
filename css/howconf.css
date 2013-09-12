@@ -59,3 +59,7 @@ section p, section ul, section ol {
 	display: inline-block;
 	list-style-type: none;
 }
+
+.schedule-time {
+	font-weight: bold;
+}

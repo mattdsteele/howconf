@@ -24,7 +24,7 @@
                 <h1>HOW Conf</h1>
                 <h2>September 14, 2013</h2>
                 <h2><a href="#location">Platte River State Park, Nebraska</a></h2>
-                <a href="#register" class="button success">Register Now!</a>
+                <span class="button alert">Registration Closed</span>
             </div>
         </header>
 
@@ -164,12 +164,22 @@
 
         <hr>
         <div class="row">
-        <section class="column large-6">
+        <section class="column large-8">
             <h1>Schedule</h1>
-            <p>The conference will run 9am-5pm. More details coming soon.</p>
+            <ul>
+                <li><span class="schedule-time">8:30-9:00</span> - Registration, coffee</li>
+                <li><span class="schedule-time">9:00-11:00</span> - Game Programming - Nick Nisi</li>
+                <li><span class="schedule-time">11:00-11:30</span> - Lightning Talk - Zach Leatherman</li>
+                <li><span class="schedule-time">11:30-11:50</span> - Robot Operating Systems - John Miller</li>
+                <li><span class="schedule-time">11:50-12:50</span> - Lunch</li>
+                <li><span class="schedule-time">12:50-2:00</span> - Software Exploitation with John Hobbs</li>
+                <li><span class="schedule-time">2:00-2:20</span> - Information Radiators with Rob Hruska</li>
+                <li><span class="schedule-time">2:20-2:30</span> - Open Nebraska with Rebecca Stavick and Nate Benes</li>
+                <li><span class="schedule-time">2:30-5:00</span> - Arduino with Jonathan Rice</li>
+            </ul>
         </section>
 
-        <section class="column large-6">
+        <section class="column large-4">
             <h1>What's included</h1>
             <ul>
                 <li>Admission</li>
@@ -199,25 +209,8 @@
 
         <hr>
         <section id="register" class="row">
-            <h1>Register</h1>
-            <h2>Closes September 12</h2>
-            <p>Registration is only <strong>ten bucks</strong>, and seating is limited!</p>
-            <div id="registerButton">
-                <a href="http://howconf.eventbrite.com/" class="button expand success">Register on EventBrite</a>
-            </div>
-
+            <h1>Registration is closed! See you at HOW Conf!</h1>
         </section>
-
-        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script>
-        $(function() {
-            var width = document.body.clientWidth;
-            if (width > 500) {
-                var embedCode = $('<div style="width:99%; text-align:left;" ><iframe  src="http://www.eventbrite.com/tickets-external?eid=7795519609&ref=etckt&v=2" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Sell Tickets</a> <span style="color:#ddd;">through</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>');
-                $('#registerButton').html(embedCode);
-            }
-        });
-        </script>
         <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
