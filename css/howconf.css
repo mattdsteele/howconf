@@ -2,18 +2,18 @@ img {
     width: 100%;
 }
 body {
-	background: url('../img/squairy_light_@2X.png')
+	background: url('../img/squairy_light_@2X.png') fixed;
 }
 header {
 	padding-top: 10em;
 	text-align: center;
 	min-height: 30em;
-	background: url('../img/mallet-lodge-small.jpg');
+	background: url('../img/mallet-lodge-small.jpg') fixed;
 	background-size: cover;
 }
 @media(min-width:768px) {
 	header {
-		background: url('../img/mallet-lodge.jpg');
+		background: url('../img/mallet-lodge.jpg') fixed;
 		background-size: cover;
 	}
 }
