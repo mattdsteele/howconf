@@ -25,7 +25,7 @@ section:nth-child(even) {
 }
 section:nth-child(odd) {
 }
-section h1, section h2, #hero * {
+section h1, section h2, section h3, #hero * {
 	font-family: 'Raleway', sans-serif;
 }
 hr {
